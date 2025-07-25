@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="intro-card">
+    <h1>Welcome to the Terpenoid Domain Academic Knowledge Platform</h1>
+    <p>This platform integrates over 60,000 high-quality academic papers in the terpenoid field, providing professional literature search, knowledge Q&A, and research assistance services through AI technology. Our knowledge base covers multiple cutting-edge fields including computer science, biomedicine, and engineering technology, with continuous updates of the latest research findings.</p>
+    <p>Whether you are a researcher, student, or industry expert, you can quickly access accurate academic information here to enhance research efficiency.</p>
+    
+    <div class="feature-grid">
+        <a href="{{ url_for('bp_search.index') }}" class="feature-link">
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <div class="feature-title">Intelligent Literature Search</div>
+                <p>Supports multi-dimensional precise search including semantic search, advanced filtering, and visual analysis to help you quickly locate target literature.</p>
+            </div>
+        </a>
+        
+        <a href="{{ url_for('bp_chat.index') }}" class="feature-link">
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <div class="feature-title">Professional Q&A</div>
+                <p>Powered by a knowledge base built by domain experts, answering discipline-specific questions with authoritative literature citations.</p>
+            </div>
+        </a>
+        
+        <a href="{{ url_for('bp_review.index') }}" class="feature-link">
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <div class="feature-title">Literature Review Generation</div>
+                <p>Input your research topic to automatically generate a review framework including key literature, research progress, and future directions.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- <div class="intro-card">
+    <h1>Platform Data Overview</h1>
+    <p>• Total Literature: over 60,000 articles (continuously updated)</p>
+    <p>• Covered Disciplines: Over 40 disciplines</p>
+    <p>• Number of key nodes: 546,040</p>
+    <p>• Number of node relationships: over 10,000,000</p>
+    <p>• Time Span: Core journal papers from 2000-2025</p>
+</div> -->
+
+
+<!-- <p>• Special Resources: Includes xxxx high-quality review papers and xxxx professional terpenoid molecular data</p> -->
+{% endblock %}
+

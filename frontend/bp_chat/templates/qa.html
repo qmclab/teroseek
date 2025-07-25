@@ -1,0 +1,241 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('bp_chat.static', filename='css/chat_main.css') }}">
+<link rel="stylesheet" href="{{ url_for('bp_chat.static', filename='css/chat_message.css') }}">
+<link rel="stylesheet" href="{{ url_for('bp_chat.static', filename='css/tero_mol.css') }}">
+<link rel="stylesheet" href="{{ url_for('bp_chat.static', filename='css/ref.css') }}">
+<!-- js -->
+<script src="{{ url_for('bp_chat.static', filename='js/chat.js') }}"></script>
+<script src="{{ url_for('bp_chat.static', filename='js/marked.min.js') }}"></script>
+
+
+<style>
+    body {
+        overflow: hidden;
+    }
+    footer {
+        display: none;
+    }
+    @media (max-width: 768px) {
+        /* header {
+            display: none;
+        } */
+        main {
+            padding: 10px;
+            overflow-x: hidden;
+            /* 防止横向滚动 */
+            min-height: 100vh;
+            /* 确保至少占满整个视口高度 */
+        }
+    }
+
+</style>
+
+
+
+<div style="display: flex; width: 100%; height: calc(100vh - 80px);">
+    <div class="left-panel">
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages"></div>
+            <div class="input-area">
+                <input type="text" class="message-input" id="messageInput" placeholder="请输入您的问题..."
+                    onkeypress="handleKeyPress(event)">
+                <button class="send-btn" id="sendBtn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <div class="result-section">
+            <div class="result-header" onclick="toggleSection(this)">TeroMOL</div>
+            <div class="result-content" id="teromolResult">
+                <span class="empty"></span>
+            </div>
+        </div>
+        <div class="result-section">
+            <div class="result-header" onclick="toggleSection(this)">Reference</div>
+            <div class="references-container">
+                <div class="result-content" id="refResult">
+                    <span class="empty"></span>
+                </div>
+            </div>
+        </div>
+        <script>
+            function toggleSection(header) {
+                header.classList.toggle('collapsed');
+            }
+        </script>
+    </div>
+</div>
+
+
+<script>
+    let isProcessing = false;
+    let conversationHistory = []; // 存储对话历史
+
+    function addMessage(content, isUser = false) {
+        const chatMessages = document.getElementById('chatMessages');
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+
+        if (isUser) {
+            messageDiv.textContent = content;
+        } else {
+            messageDiv.innerHTML = marked.parse(content);
+            // Remove highlightCode call since it's not needed for welcome message
+        }
+
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+        conversationHistory.push({
+            role: isUser ? 'user' : 'assistant',
+            content: content
+        });
+    }
+
+    function handleKeyPress(event) {
+        if (event.key === 'Enter' && !event.shiftKey) {
+            event.preventDefault();
+            sendMessage();
+        }
+    }
+
+    async function sendMessage() {
+        if (isProcessing) return;
+
+        const input = document.getElementById('messageInput');
+        const sendBtn = document.getElementById('sendBtn');
+        const message = input.value.trim();
+
+        if (!message) return;
+
+        isProcessing = true;
+        sendBtn.disabled = true;
+        sendBtn.textContent = 'responsing...';
+        input.value = '';
+
+        // Add user message
+        addMessage(message, true);
+
+        try {
+            getTeromolResult(message); // Query molecule information
+
+            // Build request data with conversation history
+            const requestData = {
+                messages: conversationHistory
+            };
+
+            // Send to LLM API (streaming)
+            const response = await fetch('/chat/api/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(requestData)
+            });
+
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+            let botMessage = '';
+            let reasoningMessage = '';
+            let messageDiv = null;
+            let reasoningDiv = null;
+
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                const chunk = decoder.decode(value);
+                const lines = chunk.split('\n');
+
+                for (const line of lines) {
+                    if (line.startsWith('data: ')) {
+                        try {
+                            const data = JSON.parse(line.slice(6));
+
+                            if (data.ref_msg) {
+                                // Update the Ref section
+                                const refResultDiv = document.getElementById('refResult');
+                                refResultDiv.innerHTML += data.ref_msg || '<span class="empty">暂无数据</span>';
+                            } else if (data.delta) {
+                                // Determine if this is reasoning or regular content
+                                if (data.reasoning_content) {
+                                    // Create or update reasoning div
+                                    if (!reasoningDiv) {
+                                        reasoningDiv = document.createElement('div');
+                                        reasoningDiv.className = 'message bot-message reasoning';
+                                        reasoningDiv.innerHTML = '<div class="reasoning-label">思维链 (Reasoning)</div><div class="reasoning-content"></div>';
+                                        document.getElementById('chatMessages').appendChild(reasoningDiv);
+                                    }
+
+                                    reasoningMessage += data.delta;
+                                    const reasoningContent = reasoningDiv.querySelector('.reasoning-content');
+                                    reasoningContent.innerHTML = marked.parse(reasoningMessage);
+                                    highlightCode(reasoningDiv);
+                                } else {
+                                    // Create or update regular response div
+                                    if (!messageDiv) {
+                                        messageDiv = document.createElement('div');
+                                        messageDiv.className = 'message bot-message';
+                                        document.getElementById('chatMessages').appendChild(messageDiv);
+                                    }
+
+                                    botMessage += data.delta;
+                                    messageDiv.innerHTML = marked.parse(botMessage);
+                                    highlightCode(messageDiv);
+                                }
+
+                                // document.getElementById('chatMessages').scrollTop = document.getElementById('chatMessages').scrollHeight;
+                            }
+                        } catch (e) {
+                            console.error('解析JSON出错:', e);
+                        }
+                    }
+                }
+            }
+
+            // Add AI response to conversation history
+            if (botMessage) {
+                conversationHistory.push({
+                    role: 'assistant',
+                    content: botMessage
+                });
+            }
+            if (reasoningMessage) {
+                conversationHistory.push({
+                    role: 'assistant',
+                    content: reasoningMessage,
+                    type: 'reasoning'
+                });
+            }
+
+        } catch (error) {
+            console.error('发送消息出错:', error);
+            addMessage('抱歉，发生了错误，请稍后再试。', false);
+        } finally {
+            isProcessing = false;
+            sendBtn.disabled = false;
+            sendBtn.textContent = 'send';
+        }
+    }
+
+    window.onload = function () {
+        document.getElementById('messageInput').focus();
+        // Welcome message in Markdown format with bullets in English
+        const welcomeMessage = `
+## Welcome to TeroSeek Platform. Please note the following:
+
+- The model uses a **RAG** architecture and retrieves relevant information before answering, so please be **patient**.
+- **Chat** model supports contextual conversation, allowing follow-up questions.
+- No user login or conversation history is saved; **refreshing** the page **starts a new topic**.
+- This platform supports multiple languages, especially **English** and **中文**.
+- For complex issues, navigate to [**TeroSeek Review**](http://teroseek.qmclab.com/review/) to receive a comprehensive response.
+    `;
+        addMessage(welcomeMessage, false); // Add as bot message
+    };
+</script>
+
+{% endblock %}

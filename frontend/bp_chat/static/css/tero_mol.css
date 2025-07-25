@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+    font-size: 16px;
+    /* Increased font size for better readability */
+}
+
+td.properties {
+    width: 80%;
+    overflow-wrap: break-word;
+}
+
+td.image {
+    width: 10%;
+}
+
+.smiles {
+    display: block;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.image img {
+    width: 100%;
+    /* Forces image to take up full width of the cell */
+    height: auto;
+    /* Maintains aspect ratio */
+    max-width: 100%;
+    /* Ensures image does not overflow */
+}

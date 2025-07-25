@@ -1,0 +1,74 @@
+.references-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* 增加垂直间距，调整为50px */
+    margin-top: 5px; /* 添加顶部间距 */
+    padding: 1px;
+}
+
+.tooltip-container {
+    position: relative;
+    display: block; 
+    cursor: pointer;
+    margin-bottom: 10px; /* 增加底部间距，控制条目之间的间距 */
+    padding: 15px; /* 添加内边距来分隔文字与边框 */
+    background-color: #f9f9f9; /* 背景颜色柔和 */
+    border-radius: 10px; /* 圆角效果 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 更轻微的阴影效果 */
+    transition: all 0.3s ease-in-out; /* 更平滑的过渡效果 */
+}
+
+.tooltip-container:hover {
+    transform: scale(1.02); /* 鼠标悬停时轻微放大 */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 380px; /* 更宽的tooltip */
+    background-color: #eaf7f9; /* 更柔和的背景颜色 */
+    color: #2a2a2a; /* 更深的文本颜色 */
+    text-align: left;
+    border-radius: 8px;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -190px; /* 调整为宽度一半 */
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(10px);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tooltip-text::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #eaf7f9 transparent transparent transparent; /* 匹配背景色 */
+}
+
+/* 改变字体和文字颜色 */
+.tooltip-container a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007b8f; /* 参考文献链接颜色 */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.tooltip-container a:hover {
+    color: #005f69; /* 鼠标悬停时的颜色 */
+}

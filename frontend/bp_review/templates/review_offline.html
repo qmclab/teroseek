@@ -1,0 +1,413 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('bp_chat.static', filename='css/chat_main.css') }}">
+<link rel="stylesheet" href="{{ url_for('bp_chat.static', filename='css/chat_message.css') }}">
+<link rel="stylesheet" href="{{ url_for('bp_chat.static', filename='css/ref.css') }}">
+<script src="{{ url_for('bp_chat.static', filename='js/chat.js') }}"></script>
+<script src="{{ url_for('bp_chat.static', filename='js/marked.min.js') }}"></script>
+
+<style>
+    footer {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        main {
+            padding: 10px;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+    }
+
+    .form-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .form-section {
+        background: #f8f9fa;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+        width: 100%;
+        padding: 12px 16px;
+        border: 2px solid #dee2e6;
+        border-radius: 6px;
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+        box-sizing: border-box;
+    }
+
+    .form-group input[type="text"]:focus,
+    .form-group input[type="email"]:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+    }
+
+    .btn {
+        padding: 12px 24px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+    }
+
+    .btn-primary {
+        background: #007bff;
+        color: white;
+    }
+
+    .btn-primary:hover:not(:disabled) {
+        background: #0056b3;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+    }
+
+    .btn-success {
+        background: #28a745;
+        color: white;
+    }
+
+    .btn-success:hover:not(:disabled) {
+        background: #1e7e34;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+    }
+
+    .btn-danger {
+        background: #dc3545;
+        color: white;
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .btn-danger:hover {
+        background: #c82333;
+    }
+
+    .btn-secondary {
+        background: #6c757d;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .btn-secondary:hover {
+        background: #545b62;
+    }
+
+    .btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    /* 表格样式 */
+    .table-container {
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px 0;
+    }
+
+    #topic-table {
+        width: 100%;
+        border-collapse: collapse;
+        border: none;
+    }
+
+    #topic-table tbody tr {
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    #topic-table tbody tr:last-child {
+        border-bottom: none;
+    }
+
+    #topic-table td {
+        padding: 12px 16px;
+        vertical-align: middle;
+    }
+
+    #topic-table td:first-child {
+        width: 70%;
+    }
+
+    #topic-table td:last-child {
+        width: 30%;
+        text-align: center;
+    }
+
+    #topic-table input[type="text"] {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #dee2e6;
+        border-radius: 4px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    #topic-table input[type="text"]:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+    }
+
+    /* 加载动画 */
+    .loading {
+        display: none;
+        align-items: center;
+        gap: 8px;
+        color: #6c757d;
+    }
+
+    .loading.show {
+        display: flex;
+    }
+
+    .spinner {
+        width: 16px;
+        height: 16px;
+        border: 2px solid #f3f3f3;
+        border-top: 2px solid #007bff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+        .form-container {
+            padding: 10px;
+        }
+
+        .form-section {
+            padding: 15px;
+        }
+
+        #topic-table td:first-child {
+            width: 60%;
+        }
+
+        #topic-table td:last-child {
+            width: 40%;
+        }
+    }
+</style>
+
+<div class="form-container">
+    <h1>TeroSeek review module's off-line task system</h1>
+    <ul>
+        <li>Enter the initial question and click submit</li>
+        <li>Add, delete, modify, or check sub-questions</li>
+        <li>Enter a valid <b>email</b> address and click submit</li>
+        <li>The task calculation takes approximately 5-10 minutes, and the results will be sent via <b>email</b> upon
+            completion</li>
+        <li>AI-generated content may contain <b>hallucinations</b>, so please exercise discernment</li>
+        <li>The service supports multiple languages, especially <b>English</b> and <b>中文</b></li>
+    </ul>
+
+    <div class="form-section">
+        <form id="topic-form" onsubmit="fetchTopicData(); return false;">
+            <div class="form-group">
+                <input type="text" id="topic-input" placeholder="Enter topic" required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="topic-submit-btn">
+                <span class="btn-text">Submit</span>
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <span>Loading...</span>
+                </div>
+            </button>
+        </form>
+    </div>
+
+    <div class="table-container" id="table-container" style="display: none;">
+        <table id="topic-table">
+            <tbody></tbody>
+        </table>
+        <div style="padding: 16px;">
+            <button class="btn btn-secondary" id="add-row-btn" onclick="addRow()" style="display: none;">
+                add row
+            </button>
+        </div>
+    </div>
+
+    <div class="form-section" id="email-section" style="display: none;">
+        <form id="task-form" onsubmit="submitTask(); return false;">
+            <div class="form-group">
+                <input type="email" id="email-input" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="btn btn-success" id="task-submit-btn">
+                <span class="btn-text">Submit Task</span>
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <span>Submitting...</span>
+                </div>
+            </button>
+        </form>
+    </div>
+</div>
+
+<script>
+    async function fetchTopicData() {
+        const submitBtn = document.getElementById("topic-submit-btn");
+        const btnText = submitBtn.querySelector('.btn-text');
+        const loading = submitBtn.querySelector('.loading');
+
+        // 显示加载状态
+        submitBtn.disabled = true;
+        btnText.style.display = 'none';
+        loading.classList.add('show');
+
+        try {
+            const topic = document.getElementById("topic-input").value;
+            const response = await fetch('/review/api/topic', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ topic: topic })
+            });
+            const items = await response.json();
+            displayItems(items);
+        } catch (error) {
+            console.error('Error fetching topic data:', error);
+            alert('获取数据时出现错误，请重试');
+        } finally {
+            // 恢复按钮状态
+            submitBtn.disabled = false;
+            btnText.style.display = 'inline';
+            loading.classList.remove('show');
+        }
+    }
+
+    function displayItems(items) {
+        const table = document.getElementById("topic-table").getElementsByTagName('tbody')[0];
+        const tableContainer = document.getElementById("table-container");
+        const emailSection = document.getElementById("email-section");
+        const addRowBtn = document.getElementById("add-row-btn");
+
+        table.innerHTML = ""; // 清除表格内容
+
+        items.forEach(item => {
+            const row = table.insertRow();
+            const cell = row.insertCell(0);
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.value = item;
+            cell.appendChild(input);
+
+            const actionCell = row.insertCell(1);
+            const deleteButton = document.createElement('button');
+            deleteButton.innerText = "delete";
+            deleteButton.className = "btn btn-danger";
+            deleteButton.onclick = function () { row.remove(); };
+            actionCell.appendChild(deleteButton);
+        });
+
+        // 显示表格和相关元素
+        tableContainer.style.display = 'block';
+        emailSection.style.display = 'block';
+        addRowBtn.style.display = 'inline-flex';
+    }
+
+    function addRow() {
+        const table = document.getElementById("topic-table").getElementsByTagName('tbody')[0];
+        const row = table.insertRow();
+        const cell = row.insertCell(0);
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.value = "";
+        cell.appendChild(input);
+
+        const actionCell = row.insertCell(1);
+        const deleteButton = document.createElement('button');
+        deleteButton.innerText = "delete";
+        deleteButton.className = "btn btn-danger";
+        deleteButton.onclick = function () { row.remove(); };
+        actionCell.appendChild(deleteButton);
+    }
+
+    async function submitTask() {
+        const submitBtn = document.getElementById("task-submit-btn");
+        const btnText = submitBtn.querySelector('.btn-text');
+        const loading = submitBtn.querySelector('.loading');
+
+        // 显示加载状态
+        submitBtn.disabled = true;
+        btnText.style.display = 'none';
+        loading.classList.add('show');
+
+        try {
+            const topic = document.getElementById("topic-input").value;
+            const email = document.getElementById("email-input").value;
+            const table = document.getElementById("topic-table").getElementsByTagName('tbody')[0];
+            const data = Array.from(table.rows).map(row => row.cells[0].getElementsByTagName('input')[0].value);
+
+            const response = await fetch('/review/api/task', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ topic: topic, data: data, email: email })
+            });
+
+            // 检查响应是否成功
+            if (!response.ok) {
+                throw new Error(`error: ${response.status}`);
+            }
+            const taskId = await response.taskId;
+            // 成功提交后显示提示
+            alert(`
+The offline task is submitted successfully
+
+>> Email: ${email} <<
+
+one email will be sent to this address when the task is completed
+please check your email later
+`);
+        } catch (error) {
+            console.error('error:', error);
+            alert('errror, please retry');
+        } finally {
+            // 无论成功或失败，都恢复UI状态
+            submitBtn.disabled = false;
+            btnText.style.display = 'inline';
+            loading.classList.remove('show');
+            location.reload();
+        }
+    }
+
+</script>
+
+{% endblock %}
