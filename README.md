@@ -14,3 +14,9 @@ pip install nltk rank_bm25 uvicorn fastapi
 
 pip install --upgrade "volcengine-python-sdk[ark]"
 
+## second: start retirval server
+python app.py
+
+## third: retrival information
+
+
