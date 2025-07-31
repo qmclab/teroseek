@@ -12,7 +12,7 @@ finally, split all part with introduction(I), method(M), result(R), discussion(D
 save into a parquet file to accelerate storage and reading
 """
 
-df_chunks = pd.read_csv("/home/kangx/teroseek/data/all_chunks.csv")
+df_chunks = pd.read_csv("data/all_chunks.csv")
 df_chunks["embedding"] = df_chunks["summary"].apply(get_embedding)
 df_chunks["embedding_norm"] = df_chunks["embedding"].apply(sliced_norm_l2)
 df_chunks["type"] = df_chunks["chunk_id"].str[9]
