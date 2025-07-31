@@ -1,11 +1,5 @@
 
 
-"""
-设置文件：
-LLM api提供商的配置信息，LLM型号编码和API key有助于快速配置服务启动demo。
-
-
-"""
 
 
 ARK_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
