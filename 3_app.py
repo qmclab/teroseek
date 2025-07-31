@@ -1,6 +1,7 @@
 
 import nltk
-nltk.data.path.append("data/nltk_data")
+nltk.download('punkt')
+nltk.download('punkt_tab')
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 import numpy as np
