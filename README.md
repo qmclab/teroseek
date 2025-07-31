@@ -3,9 +3,9 @@ An intelligent dialogue platform exclusively dedicated to terpenoids research
 
 
 ## Create environment
-
+```bash
 conda create -n teroseek python=3.11
-
+```
 conda activate teroseek
 
 conda install numpy pandas pyarrow
