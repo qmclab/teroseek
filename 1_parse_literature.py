@@ -5,7 +5,7 @@ import pandas as pd
 from src.clean_literatures import CleanLiterature
 from tqdm import tqdm
 
-source_data_path = "data/teroseek_data_pubmed_1000_demo.csv"
+source_data_path = "data/teroseek_data_pubmed_100_demo.csv"
 df_initial = pd.read_csv(source_data_path)
 print(df_initial.columns)
 """
