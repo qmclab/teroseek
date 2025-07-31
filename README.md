@@ -1,8 +1,8 @@
-# teroseek
+# TeroSeek
 An intelligent dialogue platform exclusively dedicated to terpenoids research
 
 
-## first:create environment
+## First:create environment
 
 conda create -n teroseek python=3.11
 
@@ -13,6 +13,12 @@ conda install numpy pandas pyarrow
 pip install nltk rank_bm25 uvicorn fastapi
 
 pip install --upgrade "volcengine-python-sdk[ark]"
+
+
+## Second: parse initial data
+
+
+
 
 ## second: start retirval server
 python app.py
