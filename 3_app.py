@@ -38,12 +38,6 @@ def search_doc_by_id(chunk_id):
 
 class BM25Retrieval:
     def __init__(self, paragraphs_data, tokenizer=word_tokenize):
-        """
-        初始化BM25检索系统
-        
-        :param paragraphs: 字符串列表，包含所有候选段落
-        :param tokenizer: 分词函数，默认为NLTK的word_tokenize
-        """
         self.T_ids = list(paragraphs_data.keys())
         self.paragraphs = list(paragraphs_data.values())
         self.tokenizer = tokenizer
