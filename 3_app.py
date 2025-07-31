@@ -1,14 +1,20 @@
 
 import nltk
-nltk.download('punkt')
-nltk.download('punkt_tab')
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 import numpy as np
 import pandas as pd
 from src.llms import *
 
-
+def download_nltk_data():
+    try:
+        nltk.data.find('tokenizers/punkt')
+        nltk.data.find('tokenizers/punkt_tab')
+    except LookupError:
+        print("Downloading NLTK data...")
+        nltk.download('punkt', quiet=True)
+        nltk.download('punkt_tab', quiet=True)
+        print("NLTK data downloaded.")
 
 
 def retrival_top_k(__df__, query_vector, k=30):
@@ -39,6 +45,12 @@ def search_doc_by_id(chunk_id):
 
 class BM25Retrieval:
     def __init__(self, paragraphs_data, tokenizer=word_tokenize):
+        """
+        初始化BM25检索系统
+        
+        :param paragraphs: 字符串列表，包含所有候选段落
+        :param tokenizer: 分词函数，默认为NLTK的word_tokenize
+        """
         self.T_ids = list(paragraphs_data.keys())
         self.paragraphs = list(paragraphs_data.values())
         self.tokenizer = tokenizer
@@ -46,15 +58,23 @@ class BM25Retrieval:
         self.bm25 = BM25Okapi(self.tokenized_corpus)
     
     def _tokenize_corpus(self, corpus):
+        """分词处理所有段落"""
         return [self.tokenizer(doc.lower()) for doc in corpus]
     
     def _tokenize_query(self, query):
+        """分词处理查询"""
         return self.tokenizer(query.lower())
     
     def search(self, keywords):
+        """
+        执行关键词检索
+        """
+        # 将关键词列表合并为查询字符串
         query = " ".join(keywords)
         tokenized_query = self._tokenize_query(query)
+        # 获取BM25分数
         doc_scores = self.bm25.get_scores(tokenized_query)
+        # 将结果与原始段落配对
         results = list(zip(self.T_ids, self.paragraphs, doc_scores))
         results.sort(key=lambda x: x[-1], reverse=True)
         return results
@@ -192,5 +212,6 @@ async def retrieve_documents(
 
 
 if __name__ == "__main__":
+    download_nltk_data()
     uvicorn.run(app, host="0.0.0.0", port=9999)
 
