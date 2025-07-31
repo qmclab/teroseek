@@ -2,7 +2,7 @@
 An intelligent dialogue platform exclusively dedicated to terpenoids research
 
 
-## First:create environment
+## Create environment
 
 conda create -n teroseek python=3.11
 
@@ -15,14 +15,18 @@ pip install nltk rank_bm25 uvicorn fastapi
 pip install --upgrade "volcengine-python-sdk[ark]"
 
 
-## Second: parse initial data
+## 1: parse initial data
 
+python 1_parse_literature.py
 
+## 2: embedding all chunks
 
+python 2_embedding_chunks.py
 
-## second: start retirval server
-python app.py
+## 3: Start retreival server
 
-## third: retrival information
+python 3_app.py
 
+## 4: Test retreival
 
+ curl -X POST "http://localhost:9999/retrieve" -H "Content-Type: application/json" -d '{"query":"what is terpene?", "top_k":1}'
