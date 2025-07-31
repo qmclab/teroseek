@@ -51,23 +51,15 @@ class BM25Retrieval:
         self.bm25 = BM25Okapi(self.tokenized_corpus)
     
     def _tokenize_corpus(self, corpus):
-        """分词处理所有段落"""
         return [self.tokenizer(doc.lower()) for doc in corpus]
     
     def _tokenize_query(self, query):
-        """分词处理查询"""
         return self.tokenizer(query.lower())
     
     def search(self, keywords):
-        """
-        执行关键词检索
-        """
-        # 将关键词列表合并为查询字符串
         query = " ".join(keywords)
         tokenized_query = self._tokenize_query(query)
-        # 获取BM25分数
         doc_scores = self.bm25.get_scores(tokenized_query)
-        # 将结果与原始段落配对
         results = list(zip(self.T_ids, self.paragraphs, doc_scores))
         results.sort(key=lambda x: x[-1], reverse=True)
         return results
