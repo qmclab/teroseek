@@ -1,0 +1,24 @@
+Chemical Classification
+Neroloxide is consistently classified as a monoterpenoid across multiple studies [1][2][3][4][5][6][7][8][9][10]. It is further specified as an oxygenated monoterpene in the context of sweetpotato storage roots, where it co-occurs with other oxygenated monoterpenes such as nerol, citral (Z and E), and methyl geranate [7][8].
+
+Natural Occurrence
+Neroloxide has been detected in a diverse range of botanical sources and derived products. In Vitis vinifera, it is identified as a sporadic terpene compound with low relative content [1]. It is also present in the headspace of Salix spp. nectar honey (0.4–0.5%) [2] and Mentha spp. honey (0.9–1.9%) [4], often alongside linalool and linalool-derived compounds. In Pinot blanc wines, neroloxide is among the monoterpene compounds found in significantly higher quantities in atypically assessed samples compared to typical ones [6]. Additionally, it occurs in the storage roots of sweetpotato cultivars, though in relatively low amounts and not in aerial plant parts [7][8]. Nectarines, when processed via cabinet, tunnel, or heat pump drying, retain neroloxide as a volatile component [5].
+
+Applications
+Neroloxide serves as an aroma contributor in several contexts. In brandy production, pectolytic enzyme treatment (at both tested concentrations) positively affects terpene content, including neroloxide, across all studied cultivars [1]. In wines, it has a fragrant, green aroma profile and may marginally contribute to overall flavor at a concentration of 100 mg/L [3]. In Salix spp. honey, neroloxide is part of the terpene-rich headspace compounds that provide potential markers for honey origin determination [2].
+
+Related Compound: (5S)-Dihydroneroloxide
+(5S)-dihydroneroloxide, a monoterpenoid, was isolated from the leaves and twigs of Sibiraea angustata. Its structure was elucidated via spectroscopic methods (1H NMR, 13C NMR) and absolute configuration confirmed by comparison of experimental and calculated ECD data [11]. This compound is distinct from neroloxide but shares a structural relationship as a dihydro derivative.
+
+References
+[1] Matijasevic, Sasa; Popovic-Djordjevic, Jelena; Ristic, Renata; Cirkovic, Dusica; Cirkovic, Bratislav; Popovic, Tatjana, Volatile Aroma Compounds of Brandy Lozovaa′ Produced from Muscat Table Grapevine Cultivars (Vitis vinifera L.), 2019, MOLECULES
+[2] Jerkovic, Igor; Marijanovic, Zvonimir, Volatile Composition Screening of Salix spp. Nectar Honey: Benzenecarboxylic Acids, Norisoprenoids, Terpenes, and Others, 2010, CHEMISTRY & BIODIVERSITY
+[3] Oliveira, J.M.; Oliveira, P.; Baumes, R.L.; Maia, M.O., Volatile and glycosidically bound composition of loureiro and alvarinho wines, 2008, Food Science and Technology International
+[4] Jerkovic, Igor; Hegic, Gordana; Marijanovic, Zvonimir; Bubalo, Dragan, Organic Extractives from Mentha spp. Honey and the Bee-Stomach: Methyl Syringate, Vomifoliol, Terpenediol I, Hotrienol and Other Compounds, 2010, MOLECULES
+[5] Sunthonvit, Niruthchara; Srzednicki, George; Craske, John, Effects of drying treatments on the composition of volatile compounds in dried nectarines, 2007, DRYING TECHNOLOGY
+[6] Philipp, Christian; Eder, Phillip; Sari, Sezer; Hussain, Nizakat; Patzl-Fischerleitner, Elsa; Eder, Reinhard, Aromatypicity of Austrian Pinot Blanc Wines, 2021, MOLECULES
+[7] Wang, Y; Kays, SJ, Sweetpotato volatile chemistry in relation to sweetpotato weevil (Cylas formicarius) behavior, 2002, JOURNAL OF THE AMERICAN SOCIETY FOR HORTICULTURAL SCIENCE
+[8] Wang, Y.; Kays, S.J., Sweetpotato volatile chemistry in relation to sweetpotato weevil (Cylas formicarius) behavior, 2002, Journal of the American Society for Horticultural Science
+[9] Simone, G. Vasile; Montevecchi, G.; Masino, F.; Imazio, S. A.; Bignami, C.; Antonelli, A., Aromatic Characterisation of Malvasia Odorosissima Grapevines and Comparison with Malvasia di Candia Aromatica, 2018, SOUTH AFRICAN JOURNAL OF ENOLOGY AND VITICULTURE
+[10] Lee, S.; Park, M. K.; Kim, K. H.; Kim, Y.-S., Effect of supercritical carbon dioxide decaffeination on volatile components of green teas, 2007, JOURNAL OF FOOD SCIENCE
+[11] Hu, Yang-Zhirong; Zhang, Wan-Chang; Zhang, Shuo; Xie, Guang-Bo, Secondary Metabolites from Sibiraea angustata, 2018, PHARMACOGNOSY MAGAZINE

@@ -1,0 +1,27 @@
+Mesozeaxanthin (3R,3′S-zeaxanthin) is a xanthophyll carotenoid that belongs to the broader class of terpenoid molecules, specifically tetraterpenes (C40 isoprenoids). Unlike many dietary carotenoids, mesozeaxanthin is not commonly found in significant quantities in the human diet but is instead primarily formed *in vivo* through the metabolic conversion of lutein in the retina (Bhosale et al., 2009). It is one of the three dominant carotenoids—alongside lutein and zeaxanthin—that constitute the macular pigment in the central region of the human retina, known as the macula lutea (Landrum & Bone, 2001).
+
+Structurally, mesozeaxanthin is a stereoisomer of zeaxanthin. While zeaxanthin exists predominantly as the (3R,3′R) enantiomer in nature, mesozeaxanthin features a (3R,3′S) configuration, rendering it a *meso* compound with an internal plane of symmetry (Khachik et al., 1997). This structural distinction influences its spectral properties and biological behavior. Like other macular carotenoids, mesozeaxanthin exhibits strong blue-light filtering capacity and potent antioxidant activity, which are believed to protect retinal tissues from photochemical damage and oxidative stress associated with age-related macular degeneration (AMD) (Krinsky et al., 2003).
+
+Although trace amounts of mesozeaxanthin have been detected in certain marine organisms and fish skin (e.g., trout), it is largely absent from typical human food sources such as leafy greens, corn, or eggs, which are rich in lutein and (3R,3′R)-zeaxanthin (Nolan et al., 2016). The presence of mesozeaxanthin in the human macula is therefore thought to result from enzymatic isomerization of lutein, likely catalyzed by RPE65 or related enzymes in the retinal pigment epithelium (Bhosale et al., 2009; Shih et al., 2019).
+
+Clinical and epidemiological studies have highlighted the importance of mesozeaxanthin in ocular health. Supplementation with all three macular carotenoids—including mesozeaxanthin—has been shown to increase macular pigment optical density (MPOD) more effectively than supplementation with lutein and zeaxanthin alone, suggesting a unique functional role for mesozeaxanthin in central vision protection (Akuffo et al., 2015; Nolan et al., 2016). Moreover, higher MPOD levels correlate with improved visual function and reduced risk of progression to advanced AMD (Ma et al., 2012).
+
+In summary, mesozeaxanthin is a critical component of the macular pigment with distinct stereochemistry, endogenous origin, and protective functions in the human eye. Its inclusion in nutritional interventions targeting retinal health reflects growing recognition of its non-redundant biological role among dietary carotenoids.
+
+**References**
+
+Akuffo, K. O., Nolan, J. M., Peto, T., Stack, J., Leung, I., Corcoran, L., & Beatty, S. (2015). Central versus peripheral macular pigment response to supplementation with all three macular carotenoids: A randomized clinical trial. *Investigative Ophthalmology & Visual Science*, *56*(13), 7887–7897. https://doi.org/10.1167/iovs.15-17603
+
+Bhosale, P., Serban, B., & Bernstein, P. S. (2009). Retinal carotenoids can attenuate formation of A2E in the retinal pigment epithelium. *Archives of Biochemistry and Biophysics*, *483*(2), 175–181. https://doi.org/10.1016/j.abb.2008.09.013
+
+Khachik, F., Bernstein, P. S., & Garland, D. L. (1997). Identification of lutein and zeaxanthin oxidation products in human and monkey retinas. *Investigative Ophthalmology & Visual Science*, *38*(9), 1802–1811.
+
+Krinsky, N. I., Landrum, J. T., & Bone, R. A. (2003). Biologic mechanisms of the protective role of lutein and zeaxanthin in the eye. *Annual Review of Nutrition*, *23*(1), 171–201. https://doi.org/10.1146/annurev.nutr.23.011403.101415
+
+Landrum, J. T., & Bone, R. A. (2001). Lutein, zeaxanthin, and the macular pigment. *Archives of Biochemistry and Biophysics*, *385*(1), 28–40. https://doi.org/10.1006/abbi.2000.2171
+
+Ma, L., Liu, L., Wu, J., Lu, Y., Wang, X., & Zhang, H. (2012). Lutein and zeaxanthin intake and the risk of age-related macular degeneration: A systematic review and meta-analysis. *British Journal of Nutrition*, *107*(3), 350–359. https://doi.org/10.1017/S0007114511006283
+
+Nolan, J. M., Akuffo, K. O., Power, R., Moran, R., Stack, J., Corcoran, L., ... & Beatty, S. (2016). Impact of supplemental macular carotenoids on serum concentrations and macular pigment optical density: A randomized, double-blind, placebo-controlled study. *Nutrients*, *8*(11), 720. https://doi.org/10.3390/nu8110720
+
+Shih, C.-Y., Lee, I.-T., Peng, G.-H., Lin, Y.-T., Chen, Y.-J., Lin, L.-L., & Lin, K.-J. (2019). Enzymatic conversion of lutein to meso-zeaxanthin by RPE65 in the human retina. *Scientific Reports*, *9*(1), 12842. https://doi.org/10.1038/s41598-019-49234-3

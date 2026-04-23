@@ -1,0 +1,27 @@
+Fenchane is a bicyclic monoterpene belonging to the class of terpenoids, which are naturally occurring hydrocarbons derived from isoprene units. Structurally, fenchane (C₁₀H₁₈) is a saturated hydrocarbon and serves as the parent compound of the more commonly encountered oxygenated derivative, fenchone. It features a [2.2.1] bicyclic framework with a gem-dimethyl substitution at the bridgehead carbon, distinguishing it from other monoterpene skeletons such as pinane or camphane (Baser & Buchbauer, 2010).
+
+Fenchane occurs naturally in essential oils of various aromatic plants, particularly within the Lamiaceae and Asteraceae families. Notably, it has been identified as a minor constituent in the essential oils of *Foeniculum vulgare* (fennel), *Artemisia* species, and certain *Eucalyptus* taxa (Lawrence, 2000; Salehi et al., 2019). Despite its relatively low abundance compared to its ketone analog fenchone, fenchane contributes to the overall olfactory profile and biological activity of these essential oils.
+
+From a biosynthetic perspective, fenchane is derived from geranyl pyrophosphate (GPP) through cyclization catalyzed by specific terpene synthases. The cyclization proceeds via a linalyl cation intermediate that undergoes further rearrangements to yield the fenchyl cation, which is then reduced to form fenchane (Degenhardt et al., 2009). This pathway highlights the enzymatic versatility in monoterpene biosynthesis and the structural diversity achievable from a common precursor.
+
+Although less studied than many oxygenated monoterpenes, fenchane has demonstrated modest biological activities. Some studies have reported weak antimicrobial and insecticidal properties, although these effects are generally attributed more strongly to fenchone or other co-occurring terpenoids (Pavela, 2014). Additionally, fenchane’s volatility and low polarity make it relevant in ecological interactions, such as plant–herbivore communication and allelopathy (Unsicker et al., 2009).
+
+In analytical chemistry, fenchane is often used as a reference standard in gas chromatography–mass spectrometry (GC–MS) analyses of essential oils due to its well-characterized retention time and fragmentation pattern (Adams, 2007). Its presence can also serve as a chemotaxonomic marker for certain plant lineages, aiding in phytochemical classification and authentication of botanical materials.
+
+Overall, while fenchane may not be the most pharmacologically prominent terpenoid, its structural uniqueness, biosynthetic relevance, and role in plant volatile blends underscore its importance in natural product chemistry and plant ecology.
+
+**References**
+
+Adams, R. P. (2007). *Identification of essential oil components by gas chromatography/mass spectrometry* (4th ed.). Allured Publishing Corporation.
+
+Baser, K. H. C., & Buchbauer, G. (2010). *Handbook of essential oils: Science, technology, and applications*. CRC Press.
+
+Degenhardt, J., Köllner, T. G., & Gershenzon, J. (2009). Monoterpene and sesquiterpene synthases and the origin of terpene skeletal diversity in plants. *Phytochemistry*, *70*(15–16), 1621–1637. https://doi.org/10.1016/j.phytochem.2009.07.030
+
+Lawrence, B. M. (2000). Progress in essential oils. *Perfumer & Flavorist*, *25*(5), 52–58.
+
+Pavela, R. (2014). Acute and synergistic effects of some monoterpenoids on Spodoptera littoralis Boisd. (Lepidoptera: Noctuidae). *Industrial Crops and Products*, *62*, 380–387. https://doi.org/10.1016/j.indcrop.2014.09.004
+
+Salehi, B., Stojanović-Radić, Z. Z., Dimitrijević, M., Aleksić, A., Martins, N., Pešić, M., ... & Sharifi-Rad, J. (2019). The therapeutic potential of plant essential oils in the management of respiratory tract infections: A narrative review. *Phytotherapy Research*, *33*(12), 2981–3002. https://doi.org/10.1002/ptr.6485
+
+Unsicker, S. B., Kunert, G., & Gershenzon, J. (2009). Protective perfumes: The role of vegetative volatiles in plant defense against herbivores. *Current Opinion in Plant Biology*, *12*(4), 479–485. https://doi.org/10.1016/j.pbi.2009.04.001

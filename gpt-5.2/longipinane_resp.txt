@@ -1,0 +1,104 @@
+I can’t reliably comply with your “peer‑reviewed only + in‑text citations + full APA reference list” requirement for *longipinane* in this environment, because I don’t have access to external databases/web search here and my offline knowledge may miss key primary papers or get bibliographic details wrong. If you paste a few key papers (PDFs/DOIs/titles) you’re using, I can produce a fully referenced, citation-accurate introduction from those sources.
+
+That said, here’s a careful, academically styled introduction to **longipinane** (the scaffold) that avoids fabricating specific paper citations. If you want, I’ll convert this into a properly cited version once you provide sources.
+
+---
+
+## Longipinane: overview and context
+
+**Longipinane** refers to a **tricyclic sesquiterpenoid hydrocarbon framework (C₁₅)** associated with the “longipinane/longipinene” family of natural products. In natural products and terpene-chemistry contexts, the term is commonly used in two closely related ways:
+
+1. **As a carbon skeleton (scaffold)** describing a particular tricyclic arrangement produced biosynthetically from **farnesyl pyrophosphate (FPP)** via enzyme-catalyzed cyclization/rearrangement.
+2. **As the parent hydrocarbon family name** for compounds that retain the longipinane core but vary by oxidation state and substitution pattern (e.g., alcohols, ketones, epoxides).
+
+Because many terpenoids are discussed by *skeleton name* rather than by a single unique structure, “longipinane” is best introduced as a **biosynthetically meaningful framework** rather than one isolated molecule.
+
+---
+
+## Structural features
+
+### Carbon count and class
+- Longipinane belongs to the **sesquiterpenes**, constructed from **three isoprene units** (15 carbons).
+- The hallmark is a **compact, polycyclic (typically tricyclic) architecture**, which creates multiple stereocenters and a rigid 3D shape.
+
+### Stereochemistry and conformational rigidity
+- The longipinane core is **stereochemically rich**, and natural isolates often occur as single enantiomers (or enriched mixtures) because terpene cyclases typically impose strong stereochemical control.
+- The rigidity of the tricyclic skeleton influences:
+  - **GC/MS fragmentation patterns** (useful for chemotaxonomy and essential-oil profiling),
+  - **reactivity under oxidation** (allylic/bridgehead positions can be selectively functionalized),
+  - **biological interactions** (shape-driven binding and membrane partitioning).
+
+---
+
+## Biosynthesis (conceptual)
+
+### Precursor and cyclization logic
+- Like most sesquiterpenes, longipinane-type frameworks are derived from **FPP**.
+- A **terpene cyclase (sesquiterpene synthase)** initiates ionization of FPP (loss of pyrophosphate), generating a carbocation that undergoes:
+  - **intramolecular cyclizations** (forming multiple rings),
+  - **hydride and methyl shifts** (rearrangements),
+  - **termination** by deprotonation (hydrocarbon) or water capture (alcohol), depending on enzyme active-site features.
+
+### Diversification to oxygenated longipinanes
+- After the hydrocarbon skeleton forms, **tailoring enzymes** (often cytochrome P450 monooxygenases, dehydrogenases, etc.) can generate:
+  - **longipinols** (alcohols),
+  - **longipinones** (ketones),
+  - epoxides or other oxidized derivatives,
+which may have distinct odors, ecological roles, and bioactivities.
+
+---
+
+## Occurrence and natural sources
+
+Longipinane-type sesquiterpenes are most often discussed in the context of:
+- **essential oils** and resinous extracts from higher plants,
+- sometimes **fungal secondary metabolites** (depending on the specific longipinane derivative).
+
+In chemotaxonomy and natural-product surveys, the presence of longipinane-type constituents can serve as one marker among many for **species/chemotype differentiation**, especially when coupled to other sesquiterpene families.
+
+---
+
+## Isolation and identification
+
+### Typical workflow
+Longipinane(-type) compounds are commonly characterized through:
+- **steam distillation** or solvent extraction (for volatile fractions),
+- **fractionation** (column chromatography, prep GC, or HPLC),
+- **structure elucidation** via **NMR** (1D/2D), **MS**, and sometimes **X-ray crystallography** (particularly for oxygenated derivatives).
+
+### Analytical considerations
+- The tricyclic sesquiterpene skeleton can produce **diagnostic mass fragments**, but **unambiguous assignment** typically requires NMR (and, for absolute configuration, chiroptical methods or derivatization/comparison to known standards).
+- Many reports distinguish among closely related frameworks (e.g., longipinane vs. other polycyclic sesquiterpenes) using a combination of **retention indices**, **library MS matches**, and **NMR confirmation** when isolated.
+
+---
+
+## Chemical reactivity (high level)
+
+The longipinane framework’s dense ring system leads to characteristic chemistry:
+- **Selective oxidations** at allylic or tertiary positions can yield alcohols/ketones useful for structure–activity studies.
+- Rearrangement under strongly acidic conditions can occur (common in terpene chemistry), though natural biosynthesis achieves the skeleton through controlled, enzyme-guided carbocation cascades.
+
+---
+
+## Ecological and potential biological roles
+
+As with many sesquiterpenes, longipinane-type compounds (especially oxygenated variants) may function as:
+- **semiochemicals** (signals affecting herbivores, pollinators, or predators),
+- **antimicrobial or antifungal defenses**,
+- contributors to **aroma profiles** in essential oils (odor impact depends strongly on functionalization).
+
+Whether a *specific* longipinane derivative has robust pharmacological evidence depends on the exact compound and the depth of bioassay work available.
+
+---
+
+## How I can make this fully citation-compliant (peer‑reviewed + APA)
+
+If you provide any of the following, I’ll produce a comprehensive, properly cited introduction with in-text citations and an APA reference list:
+- 3–8 key papers/reviews (PDFs or DOIs), or
+- permission to use web search (PubMed/Google Scholar/Crossref) to retrieve peer‑reviewed sources and exact bibliographic metadata.
+
+---
+
+## References (APA style)
+
+Not provided because I don’t have access to the peer‑reviewed literature here to verify specific longipinane papers and avoid incorrect citations. If you share your sources (or enable browsing), I’ll generate a complete APA bibliography and integrate in‑text citations throughout.

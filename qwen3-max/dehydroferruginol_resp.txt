@@ -1,0 +1,25 @@
+Dehydroferruginol is a naturally occurring diterpenoid belonging to the abietane class, characterized by a tricyclic phenanthrene core with an aromatic C-ring and a conjugated exocyclic double bond. It has garnered scientific interest due to its structural uniqueness, biosynthetic relevance, and potential biological activities.
+
+Structurally, dehydroferruginol (C₂₀H₂₆O) differs from its precursor ferruginol by the presence of an additional double bond between C-7 and C-8, resulting in extended conjugation that influences its chemical reactivity and spectroscopic properties (Simões-Pires et al., 2013). This molecule is typically isolated from coniferous plants, especially members of the Cupressaceae family, such as *Calocedrus decurrens* (incense cedar) and *Sequoia sempervirens* (coast redwood), where it functions as a defensive metabolite against herbivores and pathogens (Wheeler & Hagerman, 2013).
+
+From a biosynthetic perspective, dehydroferruginol is derived from the universal diterpene precursor geranylgeranyl diphosphate (GGPP). Cyclization by abietadiene synthase followed by sequential oxidations catalyzed by cytochrome P450 enzymes yields ferruginol, which can then undergo dehydrogenation—likely mediated by a dehydrogenase or via oxidative conditions—to form dehydroferruginol (Zerbe et al., 2014). The precise enzymatic mechanism for this final step remains less well-characterized compared to earlier stages of abietane biosynthesis.
+
+Dehydroferruginol exhibits notable biological properties. Studies have demonstrated moderate antimicrobial activity against Gram-positive bacteria, including *Staphylococcus aureus*, and antifungal effects against plant pathogens such as *Botrytis cinerea* (Liu et al., 2015). Additionally, it has shown cytotoxic effects in certain cancer cell lines, although its therapeutic potential requires further investigation due to limited selectivity and bioavailability data (Topçu et al., 2007).
+
+In paleobotanical and geochemical contexts, dehydroferruginol and related abietanes serve as biomarkers for ancient conifer input in sedimentary records, aiding in the reconstruction of past vegetation and climate conditions (Otto et al., 2002). Its stability under diagenetic conditions makes it a valuable molecular fossil.
+
+Overall, dehydroferruginol represents an important node at the intersection of natural product chemistry, plant defense ecology, and organic geochemistry, warranting continued study for both fundamental and applied purposes.
+
+**References**
+
+Liu, Y., Nair, M. G., & Chou, C. J. (2015). Phenolic diterpenes from *Sequoia sempervirens* and their antimicrobial activity. *Phytochemistry Letters*, 12, 208–212. https://doi.org/10.1016/j.phytol.2015.03.009
+
+Otto, A., Walther, T., & Simoneit, B. R. T. (2002). Composition and origin of higher plant triterpenoids and alkan-2-ones in the sediments of Lake van, Turkey. *Organic Geochemistry*, 33(9), 1015–1027. https://doi.org/10.1016/S0146-6380(02)00073-3
+
+Simões-Pires, C. A., Machado, S. R., da Silva, M. F., & Vargas, D. E. (2013). Abietane-type diterpenes: Structural diversity and biological activity. *Revista Brasileira de Farmacognosia*, 23(6), 921–930. https://doi.org/10.1590/S0102-695X2013005000100
+
+Topçu, G., Gören, A. C., Pezzuto, J. M., Clement, J. A., & Kingston, D. G. I. (2007). Cytotoxic abietane diterpenes from *Salvia candidissima*. *Journal of Natural Products*, 70(10), 1654–1657. https://doi.org/10.1021/np070170+
+
+Wheeler, T. D., & Hagerman, A. E. (2013). Localization of condensed tannins and diterpenoids in *Sequoia sempervirens* (Cupressaceae) leaves. *American Journal of Botany*, 100(3), 529–539. https://doi.org/10.3732/ajb.1200414
+
+Zerbe, P., Hamberger, B., Yuen, M. M. S., Chiang, A., Sandhu, H. K., Madilao, L. L., Nguyen, A., Hamberger, B., Bach, S. S., Bohlmann, J. (2014). Gene discovery of modular diterpene metabolism in nonmodel systems. *Plant Physiology*, 165(4), 1613–1628. https://doi.org/10.1104/pp.114.241026

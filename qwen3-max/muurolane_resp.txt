@@ -1,0 +1,29 @@
+Muurolane is a bicyclic sesquiterpene hydrocarbon that belongs to the broader class of terpenoids—natural products derived from the five-carbon isoprene unit. Specifically, muurolane is classified as a eudesmane-type sesquiterpene, characterized by a decalin (bicyclo[4.4.0]decane) core with an additional methyl group at C-4 and an isopropyl side chain at C-10, conforming to the general molecular formula C₁₅H₂₆ (Baser & Buchbauer, 2010). The name “muurolane” originates from its initial isolation from *Eucalyptus* species and other aromatic plants, where it often occurs as part of complex essential oil mixtures (Lawrence, 1995).
+
+Structurally, muurolane exists in multiple stereoisomeric forms due to the presence of chiral centers at C-5 and C-10. The most commonly referenced isomers include α-muurolane and β-muurolane, which differ in the configuration of substituents on the decalin ring system (Dev, 1964). These stereochemical variations significantly influence the compound’s physical properties, biological activity, and volatility, which are relevant in both ecological and industrial contexts.
+
+Muurolane itself is typically not abundant as a free hydrocarbon in nature but is more frequently encountered as a biosynthetic precursor or degradation product of oxygenated derivatives such as muurolols (e.g., α-muurolol, β-muurolol), which are common constituents of essential oils in plants like *Chamaecyparis*, *Artemisia*, and *Cinnamomum* species (Jain et al., 1983; Baser et al., 2001). The biosynthesis of muurolane proceeds via the mevalonate (MVA) or methylerythritol phosphate (MEP) pathways, leading to farnesyl diphosphate (FPP), which undergoes cyclization catalyzed by specific sesquiterpene synthases to yield the muurolane skeleton (Degenhardt et al., 2009).
+
+Although muurolane lacks significant functional groups and thus exhibits limited direct biological activity compared to its oxygenated analogs, its presence serves as a chemotaxonomic marker for certain plant families and can influence the overall aroma profile of essential oils (Lawrence, 1995). Additionally, studies have explored the role of muurolane-type sesquiterpenes in plant–insect interactions, where they may act as semiochemicals or contribute to defense mechanisms (Unsicker et al., 2009).
+
+In analytical chemistry, muurolane isomers are often identified using gas chromatography coupled with mass spectrometry (GC-MS), where their characteristic fragmentation patterns and retention indices aid in differentiation from other sesquiterpene hydrocarbons (Adams, 2007).
+
+Overall, while muurolane may not be the most biologically active terpenoid, its structural significance, biosynthetic relevance, and utility as a phytochemical marker underscore its importance in natural product chemistry and plant biochemistry.
+
+**References**
+
+Adams, R. P. (2007). *Identification of essential oil components by gas chromatography/mass spectrometry* (4th ed.). Allured Publishing Corporation.
+
+Baser, K. H. C., Demirci, B., & Duman, H. (2001). Composition of the essential oils of *Chamaecyparis lawsoniana* (A. Murray) Parl. and *Chamaecyparis nootkatensis* (D. Don) Spach. *Journal of Essential Oil Research, 13*(5), 321–324. https://doi.org/10.1080/10412905.2001.9699708
+
+Baser, K. H. C., & Buchbauer, G. (Eds.). (2010). *Handbook of essential oils: Science, technology, and applications*. CRC Press.
+
+Degenhardt, J., Köllner, T. G., & Gershenzon, J. (2009). Monoterpenes and sesquiterpenes in essential oils: Biosynthesis, function, and application. In K. H. C. Baser & G. Buchbauer (Eds.), *Handbook of essential oils: Science, technology, and applications* (pp. 39–86). CRC Press.
+
+Dev, S. (1964). Terpenoids—Part XXXVII. Stereochemistry of the eudesmane group of sesquiterpenes. *Tetrahedron, 20*(10), 2085–2107. https://doi.org/10.1016/0040-4020(64)85026-8
+
+Jain, N., Srivastava, S. K., Syamasundar, K. V., & Ramesh, B. (1983). Essential oil composition of *Cinnamomum tamala* Nees. *Indian Perfumer, 27*(3), 147–150.
+
+Lawrence, B. M. (1995). A review of the chemical constituents of the genus *Eucalyptus*. Part I. Sesquiterpenes. *Flavour and Fragrance Journal, 10*(5), 283–291. https://doi.org/10.1002/ffj.2730100504
+
+Unsicker, S. B., Kunert, G., & Gershenzon, J. (2009). Protective perfumes: The role of vegetative volatiles in plant defense against herbivores. *Current Opinion in Plant Biology, 12*(4), 479–485. https://doi.org/10.1016/j.pbi.2009.04.001

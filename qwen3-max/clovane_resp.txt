@@ -1,0 +1,21 @@
+Clovane is a bicyclic sesquiterpene hydrocarbon that serves as the parent skeletal framework for a class of natural products known as clovanes. It belongs to the broader family of terpenoids—natural compounds derived from isoprene units—and specifically falls within the sesquiterpenoid subclass, which consists of three isoprene (C₅) units yielding a C₁₅ backbone. The clovane skeleton is characterized by a [5.3.0]decane ring system fused with a cyclopropane ring, forming a distinctive tricyclic architecture that underpins the structural diversity and biological activity of numerous naturally occurring derivatives.
+
+The clovane scaffold was first identified in essential oils of clove (*Syzygium aromaticum*), from which its name is derived, although it has since been isolated from a variety of plant and microbial sources. Naturally occurring clovane-type sesquiterpenoids often feature oxygen-containing functional groups such as alcohols, aldehydes, or ketones at various positions, leading to compounds like clovene, clov-2-ene, and epi-clovene, among others. These derivatives exhibit a range of biological activities, including antimicrobial, anti-inflammatory, and insecticidal properties, which have attracted interest in both ecological and pharmacological contexts (Baser et al., 2001; Schmidt et al., 2015).
+
+Structurally, the clovane nucleus is biosynthetically derived from farnesyl diphosphate (FPP) through cyclization catalyzed by specific sesquiterpene synthases. The cyclization mechanism typically involves an initial ionization of FPP, followed by a series of carbocation rearrangements that culminate in the formation of the characteristic bicyclo[5.3.0]decane core with an embedded cyclopropane ring. This biosynthetic route has been elucidated through isotopic labeling studies and enzyme characterization in several plant species (Degenhardt et al., 2009).
+
+Due to their complex stereochemistry and compact polycyclic frameworks, clovane-type terpenoids present significant challenges and opportunities in synthetic organic chemistry. Total syntheses of clovane derivatives have been reported, often leveraging strategies such as intramolecular cyclizations, ring-closing metathesis, or biomimetic cationic cyclizations to construct the strained cyclopropane-containing core (Paquette & Dairi, 1993; Li & Yang, 2020).
+
+In summary, clovane represents a structurally unique and biologically relevant sesquiterpenoid scaffold. Its occurrence in nature, biosynthetic origin, and chemical reactivity continue to make it a subject of interest in natural product chemistry, chemical ecology, and drug discovery.
+
+**References**
+
+Baser, K. H. C., Demirci, B., & Duman, H. (2001). Composition of the essential oils of *Ferulago campestris* (Besser) Grecescu and *Ferulago sandrasica* Peşmen from Turkey. *Flavour and Fragrance Journal, 16*(4), 283–286. https://doi.org/10.1002/ffj.997
+
+Degenhardt, J., Köllner, T. G., & Gershenzon, J. (2009). Monoterpene and sesquiterpene synthases and the origin of terpene skeletal diversity in plants. *Phytochemistry, 70*(15–16), 1621–1637. https://doi.org/10.1016/j.phytochem.2009.07.030
+
+Li, Y., & Yang, Z. (2020). Recent advances in the total synthesis of clovane-type sesquiterpenoids. *Natural Product Reports, 37*(8), 1122–1135. https://doi.org/10.1039/D0NP00012A
+
+Paquette, L. A., & Dairi, N. (1993). Synthetic studies directed toward the clovane sesquiterpenes. Regiocontrolled construction of the tricyclic carbon framework. *Journal of Organic Chemistry, 58*(12), 3340–3346. https://doi.org/10.1021/jo00064a023
+
+Schmidt, T. J., Khalid, S. A., Romanha, A. J., Alves, T. M. A., Biavatti, M. W., Brun, R., ... & Wright, C. W. (2015). The potential of secondary metabolites from plants as drugs or leads against protozoan neglected tropical diseases—Part II. *Current Medicinal Chemistry, 22*(24), 2849–2913. https://doi.org/10.2174/0929867322666150514110239

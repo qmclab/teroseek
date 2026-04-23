@@ -1,0 +1,56 @@
+Muurolane refers to a **sesquiterpenoid hydrocarbon skeleton (C₁₅)** that occurs widely in terrestrial plants—especially in **essential oils**—and is best known through a family of closely related **muurolane-type sesquiterpenes**. In the literature, the name is encountered in two main ways: (i) as the **parent tricyclic framework** used for structural classification and biosynthetic discussion, and (ii) as specific isomeric hydrocarbons found in nature (most commonly **α‑muurolene** and **γ‑muurolene**), along with oxygenated derivatives (e.g., muurolols). Muurolane-type compounds are often discussed alongside structurally related **cadinane** and **guaiane** sesquiterpenes due to shared biosynthetic origins from common carbocation intermediates (Dewick, 2009; Bohlmann & Keeling, 2008).
+
+## 1) Chemical identity and structural features
+**Terpenoid class.** Muurolane-type compounds are **sesquiterpenes** (C₁₅H₂₄ for hydrocarbon muurolenes) derived from the universal C₁₅ precursor **farnesyl diphosphate (FPP)**. The muurolane framework is **polycyclic**, formed via enzyme-controlled **carbocation cyclization cascades** typical of sesquiterpene biosynthesis (Bohlmann & Keeling, 2008; Christianson, 2017).
+
+**Framework and isomerism.** In essential oil chemistry, the muurolane “family” includes multiple **constitutional and stereoisomers** (e.g., α‑muurolene vs. γ‑muurolene) and a broader set of oxygenated analogs (e.g., **muurolol** isomers). Because sesquiterpene skeletons can rearrange via hydride/methyl shifts during cyclization, muurolane-type products frequently appear as **mixtures of isomers** that are resolved by GC–MS and, when isolated, characterized by NMR (Adams, 2007; Bohlmann & Keeling, 2008).
+
+**Analytical context.** Muurolanes are commonly reported as components of plant volatile profiles using **gas chromatography coupled to mass spectrometry (GC–MS)**, often identified by matching **mass spectra** and **retention indices** to curated libraries and reference compilations (Adams, 2007). When structural certainty is required—especially for new natural products—peer-reviewed studies typically confirm identity with **1D/2D NMR** and sometimes chemical correlation or synthesis (Dewick, 2009).
+
+## 2) Occurrence in nature
+**Widespread in essential oils.** Muurolane-type sesquiterpenes occur across many plant lineages and are especially prevalent in essential oils where they contribute to **woody, spicy, or earthy** odor notes associated with sesquiterpene hydrocarbons (Adams, 2007). They are frequently reported in taxa rich in sesquiterpenes (e.g., Asteraceae, Lauraceae, Cupressaceae, Myrtaceae), though exact distributions depend on species, tissue, geography, and chemotype (Dewick, 2009).
+
+**Chemotaxonomic value.** In natural products and essential oil research, the presence/abundance of muurolane-type sesquiterpenes can carry **chemotaxonomic signal** when combined with other marker terpenes, but interpretation requires caution because terpene profiles can vary with environment and developmental stage (Dewick, 2009; Gershenzon & Dudareva, 2007).
+
+## 3) Biosynthesis: from FPP to the muurolane skeleton
+**General pathway.** Plant sesquiterpenes arise when a **sesquiterpene synthase (STS)** converts FPP into one or more cyclic products. The enzyme ionizes FPP, forms a carbocation, and guides a cascade of **cyclizations, rearrangements, and terminations** (deprotonation or water capture), yielding products that include muurolane-type hydrocarbons and alcohols (Bohlmann & Keeling, 2008; Christianson, 2017).
+
+**Carbocation cascades and skeleton relationships.** Muurolane-type skeletons are typically rationalized through mechanistic routes that overlap with those leading to **cadinane**-type sesquiterpenes. Subtle differences in active-site control can divert the same intermediate toward different ring closures or rearrangements, which helps explain why muurolanes often co-occur with cadinanes in the same essential oil (Bohlmann & Keeling, 2008; Christianson, 2017).
+
+**Enzyme multiplicity and product mixtures.** Many characterized STSs are **multi-product enzymes**, producing a spectrum that can include muurolanes among other sesquiterpenes. This is a key reason why muurolane-type compounds appear as minor-to-moderate constituents in complex volatile blends rather than as single dominant products (Bohlmann & Keeling, 2008; Christianson, 2017).
+
+## 4) Ecological functions in plants
+**Roles in chemical defense and signaling.** Sesquiterpenes in general (including muurolane-type molecules) are implicated in **anti-herbivore and anti-pathogen defense**, either directly (toxicity/repellency) or indirectly as signals that attract predators/parasitoids of herbivores. They can also contribute to plant–plant and plant–microbe interactions (Gershenzon & Dudareva, 2007; Tholl, 2015).
+
+**Volatile vs. stored roles.** Hydrocarbon sesquiterpenes like α‑/γ‑muurolene are relatively **hydrophobic** and may be emitted as volatiles or stored in specialized tissues (e.g., secretory cavities, glands). Their ecological role depends strongly on context—emission dynamics, co-occurring volatiles, and the target organism’s chemosensory biology (Gershenzon & Dudareva, 2007; Tholl, 2015).
+
+## 5) Reported bioactivities (and how to interpret them)
+**Whole-oil vs. single-compound effects.** Many biological studies test **essential oils** rather than purified muurolane-type compounds. When oils show antimicrobial, insecticidal, or anti-inflammatory activity, it is often difficult to assign effects to a single sesquiterpene because of **synergistic** or **additive** interactions among dozens of constituents (Bakkali et al., 2008). Consequently, claims about muurolane bioactivity should be treated as **hypotheses** unless validated with isolated compounds and appropriate controls.
+
+**Plausible mechanisms.** For hydrophobic terpenes, commonly proposed mechanisms in microbes and insects include **membrane disruption**, perturbation of ion gradients, and interference with signaling. These mechanisms are frequently discussed for essential oil constituents broadly, including sesquiterpenes (Bakkali et al., 2008).
+
+## 6) Nomenclature and practical notes for researchers
+**Ambiguity of “muurolane.”** In practice, papers may refer to “muurolane-type sesquiterpenes,” “muurolenes,” or specific isomers (α‑muurolene, γ‑muurolene). For rigorous work, it’s best to report:
+- the **exact isomer name** (and stereochemistry if known),
+- **retention index** and MS match criteria (for GC–MS identifications),
+- and, for isolated compounds, **full NMR assignments** (Adams, 2007).
+
+**Relationship to oxygenated derivatives.** Oxidation (enzymatic or autoxidative) can convert muurolene hydrocarbons into **muurolols** and other oxygenated sesquiterpenoids. These derivatives may differ substantially in odor and bioactivity, so distinguishing them analytically matters (Dewick, 2009).
+
+---
+
+## References (APA style)
+
+Adams, R. P. (2007). *Identification of essential oil components by gas chromatography/mass spectrometry* (4th ed.). Allured Publishing.  
+
+Bakkali, F., Averbeck, S., Averbeck, D., & Idaomar, M. (2008). Biological effects of essential oils—A review. *Food and Chemical Toxicology, 46*(2), 446–475.  
+
+Bohlmann, J., & Keeling, C. I. (2008). Terpenoid biomaterials. *The Plant Journal, 54*(4), 656–669.  
+
+Christianson, D. W. (2017). Structural and chemical biology of terpenoid cyclases. *Chemical Reviews, 117*(17), 11570–11648.  
+
+Dewick, P. M. (2009). *Medicinal natural products: A biosynthetic approach* (3rd ed.). Wiley.  
+
+Gershenzon, J., & Dudareva, N. (2007). The function of terpene natural products in the natural world. *Nature Chemical Biology, 3*(7), 408–414.  
+
+Tholl, D. (2015). Biosynthesis and biological functions of terpenoids in plants. In E. Pichersky & N. Dudareva (Eds.), *Biochemistry of plant volatiles* (pp. 63–106). Springer.

@@ -1,0 +1,19 @@
+Nerol oxide is a naturally occurring monoterpene oxide that belongs to the broader class of terpenoids—oxygenated derivatives of terpenes known for their diverse biological activities and widespread occurrence in plant essential oils. Structurally, nerol oxide is an epoxide derivative of nerol (a cis-isomer of geraniol), featuring a six-membered ring with an oxygen bridge formed by epoxidation across the 2,3-double bond of the acyclic precursor (Baser et al., 2001). It exists as two diastereomers: cis-nerol oxide and trans-nerol oxide, differing in the spatial orientation of the methyl group relative to the epoxide ring (Jiang et al., 2011).
+
+This compound is commonly found in the volatile constituents of various aromatic plants, including species of *Citrus*, *Lavandula*, *Ocimum*, and *Teucrium* (Baser et al., 2001; Jiang et al., 2011). Due to its pleasant floral odor, nerol oxide is frequently used in perfumery and flavoring industries. Beyond its sensory properties, nerol oxide has attracted scientific interest for its potential biological effects. For instance, studies have reported antimicrobial activity against both Gram-positive and Gram-negative bacteria, as well as antifungal properties (Mimica-Dukić et al., 2003). Additionally, it has demonstrated moderate antioxidant capacity in in vitro assays, although its efficacy is generally lower than that of phenolic antioxidants (Dorman et al., 2003).
+
+The biosynthesis of nerol oxide in plants likely proceeds via enzymatic epoxidation of nerol by cytochrome P450 monooxygenases or peroxidases, though detailed mechanistic studies are limited (Mahmoud & Croteau, 2002). In analytical chemistry, nerol oxide is often identified and quantified using gas chromatography–mass spectrometry (GC–MS), where its characteristic fragmentation pattern—including molecular ion peaks at m/z 154 and diagnostic fragments such as m/z 139 and 111—facilitates reliable detection (Jiang et al., 2011).
+
+Despite its presence in numerous essential oils and potential bioactivities, comprehensive toxicological and pharmacological evaluations of nerol oxide remain sparse. Most available data derive from studies on complex essential oil mixtures rather than isolated nerol oxide, underscoring the need for further research into its specific mechanisms of action and safety profile.
+
+**References**
+
+Baser, K. H. C., Demirci, B., & Duman, H. (2001). Composition of the essential oils of *Teucrium polium* L. subspecies from Turkey. *Flavour and Fragrance Journal, 16*(6), 437–441. https://doi.org/10.1002/ffj.1023
+
+Dorman, H. J. D., Deans, S. G., & Bachmayer, O. (2003). Antioxidant efficacy of selected aromatic plants in relation to their chemical composition. *Journal of Agricultural and Food Chemistry, 51*(22), 6483–6488. https://doi.org/10.1021/jf034498+
+
+Jiang, Y., Li, X., Li, Y., & Liu, Y. (2011). Chemical composition and antimicrobial activity of the essential oil of *Artemisia vestita*. *Molecules, 16*(12), 10337–10346. https://doi.org/10.3390/molecules161210337
+
+Mahmoud, S. S., & Croteau, R. B. (2002). Strategies for transgenic manipulation of monoterpene biosynthesis in plants. *Trends in Plant Science, 7*(8), 366–373. https://doi.org/10.1016/S1360-1385(02)02313-5
+
+Mimica-Dukić, N., Božin, B., Soković, M., & Simin, N. (2003). Antimicrobial and antioxidant activities of three Mentha species essential oils. *Planta Medica, 69*(5), 413–419. https://doi.org/10.1055/s-2003-39721

@@ -1,0 +1,19 @@
+I can’t reliably provide a peer‑reviewed, properly cited “comprehensive introduction” to **isocadalene** in this environment because I don’t have access to the literature databases needed to verify structures, naming synonyms, primary isolation reports, stereochemical assignments, or authoritative reviews. If I guessed, I’d risk giving you incorrect chemistry and incorrect citations, which would violate your requirement to base the response strictly on peer‑reviewed sources.
+
+If you want, I can still produce exactly what you’re asking for if you provide either:
+- 3–10 key papers/reviews you trust (DOIs, PubMed links, or PDFs), or
+- permission for me to use web access to look up the peer‑reviewed sources.
+
+**What I would cover once sources are available (and cite inline):**
+- **Chemical identity**: accepted name, common synonyms, molecular formula, core skeleton (cadalenes/cadalene-type sesquiterpenoids), and how “isocadalene” is distinguished from closely named isomers.
+- **Natural occurrence**: organisms (plants/fungi/marine), tissues/extract types, geographic notes, and whether it appears as an artifact (e.g., dehydration/aromatization during isolation).
+- **Biosynthesis/biogenetic rationale**: terpene precursor (likely FPP → sesquiterpene cyclization), plausible cyclase steps, and downstream rearrangements/aromatization to a cadalene-type framework.
+- **Structure elucidation**: key NMR/MS/IR features, diagnostic HMBC/COSY/NOESY correlations, and (if relevant) X‑ray or ECD/optical rotation used for stereochemistry.
+- **Chemical/physical properties**: stability, volatility, UV behavior if aromatic, typical chromatographic behavior (GC‑MS vs LC‑MS).
+- **Biological activity**: reported assays (antimicrobial, cytotoxic, anti‑inflammatory, etc.), potency ranges, and any SAR comparisons to cadalene/cadalene-type congeners.
+- **Synthetic/derivatization notes** (if any): total synthesis reports or transformations used to confirm structure.
+- **Research gaps**: ambiguous stereochemistry, limited bioassays, inconsistent naming, scarcity of occurrence reports.
+
+**Fastest path:** send me the DOIs/titles you want included (or a PDF bundle). I’ll then write a comprehensive introduction with (1) inline citations throughout and (2) a full APA‑style reference list (authors, title, journal, year), strictly from peer‑reviewed papers and academic reviews.
+
+If you can share just one starting point (e.g., “the paper where isocadalene was first isolated” or any DOI you’ve seen), I’ll take it from there.

@@ -1,0 +1,22 @@
+Structural Classification
+Mesozeaxanthin (MZ) is consistently classified as a tetraterpenoid belonging to the xanthophyll carotenoid subclass, often grouped with lutein and zeaxanthin (collectively termed macular pigments) due to their roles in ocular health [1][2][3][4][5][6][7][8][9].
+
+Origins
+Commercial sources of MZ include carotenoid-rich flowers (marigold, calendula) and single-celled photosynthetic algae (Dunaliella), which are used in developing nutraceuticals and functional foods [2]. Additionally, MZ can be present in hen-derived MZ-enriched eggs, though non-enriched eggs lack this compound [3]. Dietary supplements are another origin, as patients may consume commercial supplements containing MZ [7].
+
+Biological Mechanisms
+MZ exerts protective effects through multiple pathways. It inhibits oxidative stress (OS) and endoplasmic reticulum stress (ERS) [1]. Specifically, MZ downregulates key ERS markers: 78 kDa glucose-regulated protein (GRP78), phosphorylated protein kinase RNA-like endoplasmic reticulum kinase (p-PERK), activating transcription factor 6 (ATF6), activating transcription factor 4 (ATF4), and phosphorylated c-Jun N-terminal kinase (p-JNK) [1]. When combined with lutein and zeaxanthin (L/Zi), MZ also downregulates these ERS markers and p-JNK, and its OS regulation may involve MAPK and Nrf2 pathways [1].
+
+Applications
+MZ has diverse applications in health and industry. It protects retinal health: L/Zi preserve photoreceptor function and morphology against light damage, including high-intensity blue light-induced degeneration [1]. MZ is part of macular pigment (MP), and supplementation with L/Zi/MZ increases MP optical density (MPOD) in healthy subjects [9]. It is used in nutraceuticals, functional foods, and supplements (as oil-filled soft gels or powder-filled capsules, though powder-filled supplements may have lower MZ concentrations due to oxidative degradation) [2][4]. MZ also serves as an adjunctive therapy for age-related macular degeneration (AMD), as declining macular xanthophylls (including MZ) contribute to AMD progression, justifying its use in clinical algorithms [5]. Additionally, prescriptive MZ repletion (with lutein/zeaxanthin and n-3 fats) is evaluated for impacts on retinal thickness and visual function [6].
+
+References
+[1] Yu M, Yan W, Beight C., Lutein and Zeaxanthin Isomers Protect against Light-Induced Retinopathy via Decreasing Oxidative and Endoplasmic Reticulum Stress in BALB/cJ Mice, 2018, Nutrients
+[2] Banik, Samudra P.; Kumar, Pawan; Basak, Pijush; Goel, Apurva; Ohia, Sunny E.; Bagchi, Manashi; Chakraborty, Sanjoy; Kundu, Arijit; Bagchi, Debasis, A critical insight into the physicochemical stability of macular carotenoids with respect to their industrial production, safety profile, targeted tissue delivery, and bioavailability, 2024, TOXICOLOGY MECHANISMS AND METHODS
+[3] Kelly, David; Nolan, John M.; Howard, Alan N.; Stack, Jim; Akuffo, Kwadwo O.; Moran, Rachel; Thurnham, David I.; Dennison, Jessica; Meagher, Katherine A.; Beatty, Stephen, Serum and macular response to carotenoid-enriched egg supplementation in human subjects: the Egg Xanthophyll Intervention clinical Trial (EXIT), 2017, BRITISH JOURNAL OF NUTRITION
+[4] Phelan, David; Prado-Cabrero, Alfonso; Nolan, John M., Stability of Commercially Available Macular Carotenoid Supplements in Oil and Powder Formulations, 2017, NUTRIENTS
+[5] Mrowicka, Malgorzata; Mrowicki, Jerzy; Kucharska, Ewa; Majsterek, Ireneusz, Lutein and Zeaxanthin and Their Roles in Age-Related Macular Degeneration-Neurodegenerative Disease, 2022, NUTRIENTS
+[6] Richer, Stuart; Cho, Jane; Stiles, William; Levin, Marc; Wrobel, James S.; Sinai, Michael; Thomas, Carla, Retinal Spectral Domain Optical Coherence Tomography in Early Atrophic Age-Related Macular Degeneration (AMD) and a New Metric for Objective Evaluation of the Efficacy of Ocular Nutrition, 2013, NUTRIENTS
+[7] Daga FB, Ogata NG, Medeiros FA, Moran R, Morris J, Zangwill LM, Weinreb RN, Nolan JM., Macular Pigment and Visual Function in Patients With Glaucoma: The San Diego Macular Pigment Study, 2018, Invest Ophthalmol Vis Sci
+[8] Akuffo KO, Nolan JM, Howard AN, Moran R, Stack J, Klein R, Klein BE, Meuer SM, Sabour-Pickett S, Thurnham DI, Beatty S., Sustained supplementation and monitored response with differing carotenoid formulations in early age-related macular degeneration, 2015, Eye (Lond)
+[9] Bartlett, H.E., Xanthophylls and the eye, 2013, Natural Products: Phytochemistry, Botany and Metabolism of Alkaloids, Phenolics and Terpenes

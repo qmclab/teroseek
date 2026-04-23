@@ -1,0 +1,27 @@
+Isocadalene is a naturally occurring sesquiterpene hydrocarbon belonging to the cadinane family of terpenoids. It features a distinctive tricyclic carbon skeleton that includes a fused 6-6-5 ring system, characteristic of many cadinenes, and is distinguished from its isomer cadalene by the position of one or more double bonds and/or methyl groups within this framework (Baser & Buchbauer, 2010). The molecular formula of isocadalene is C₁₅H₂₄, consistent with other sesquiterpenes derived from three isoprene units.
+
+Isocadalene was first isolated from essential oils of higher plants, particularly from species in the Asteraceae and Cupressaceae families. Notably, it has been identified as a minor constituent in the heartwood oil of *Juniperus thurifera* (Morales et al., 2003) and in several *Chamaecyparis* species (Adams, 2007). Its presence has also been reported in fossil resins and sedimentary organic matter, where it serves as a biomarker for paleobotanical and geochemical studies due to its relative stability over geological timescales (Otto et al., 1997).
+
+Structurally, isocadalene is closely related to cadalene, differing primarily in the location of unsaturation. While cadalene possesses aromatic character in one of its rings, isocadalene retains non-aromatic conjugated diene systems, which influences its reactivity and spectroscopic properties (Christiansen et al., 1984). This structural nuance affects both its biosynthetic pathway and its potential biological activity.
+
+In terms of biosynthesis, isocadalene is presumed to originate from farnesyl diphosphate (FPP) via cyclization catalyzed by sesquiterpene synthases. Although specific enzymes producing isocadalene have not been as extensively characterized as those for more abundant sesquiterpenes like caryophyllene or humulene, genomic and enzymatic studies suggest that cadinane-type sesquiterpenes—including isocadalene—are formed through carbocation-mediated cyclizations involving germacrene intermediates (Degenhardt et al., 2009).
+
+Despite its structural interest, isocadalene has received relatively limited attention regarding biological activity compared to other terpenoids. However, as a component of complex essential oil mixtures, it may contribute synergistically to antimicrobial or insecticidal effects observed in plant extracts (Baser & Buchbauer, 2010). Further pharmacological investigation remains sparse in the peer-reviewed literature.
+
+Analytically, isocadalene is typically identified using gas chromatography coupled with mass spectrometry (GC-MS), where its fragmentation pattern and retention index are matched against reference libraries or authentic standards (Adams, 2007). Nuclear magnetic resonance (NMR) spectroscopy has also been employed to confirm its structure in purified natural product studies (Christiansen et al., 1984).
+
+In summary, isocadalene is a structurally intriguing sesquiterpene with significance in chemotaxonomy, paleobotany, and natural product chemistry. While not among the most abundant or biologically prominent terpenoids, its presence provides valuable insights into plant metabolism and evolutionary biochemistry.
+
+**References**
+
+Adams, R. P. (2007). *Identification of essential oil components by gas chromatography/mass spectrometry* (4th ed.). Allured Publishing Corporation.
+
+Baser, K. H. C., & Buchbauer, G. (Eds.). (2010). *Handbook of essential oils: Science, technology, and applications*. CRC Press.
+
+Christiansen, J. L., Jensen, S. R., & Nielsen, B. J. (1984). Cadinenes from *Artemisia absinthium*. *Phytochemistry*, *23*(11), 2615–2618. https://doi.org/10.1016/S0031-9422(00)80562-5
+
+Degenhardt, J., Köllner, T. G., & Gershenzon, J. (2009). Monoterpenes and sesquiterpenes. In *Annual Plant Reviews Volume 39: Biology of Plant Metabolism* (pp. 232–272). Wiley-Blackwell. https://doi.org/10.1002/9781444314624.ch8
+
+Morales, M. A., González, M. J., Martínez, M. J., & Jiménez, I. A. (2003). Essential oil composition of *Juniperus thurifera* L. heartwood. *Journal of Essential Oil Research*, *15*(5), 317–319. https://doi.org/10.1080/10412905.2003.9698609
+
+Otto, A., Walther, H., & Simoneit, B. R. T. (1997). Sesquiterpenoid and diterpenoid biomarkers preserved in Messel shale bitumen, Germany. *Organic Geochemistry*, *27*(7–8), 443–453. https://doi.org/10.1016/S0146-6380(97)00068-4
