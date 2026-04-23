@@ -1,0 +1,43 @@
+Longipinane is a tricyclic sesquiterpene hydrocarbon that serves as the structural parent for a unique class of natural products found primarily in higher plants and certain liverworts. Characterized by a complex [4.4.0.0$^{2,7}$]decane carbon framework, the longipinane skeleton is of significant interest to organic chemists and pharmacologists due to its intricate stereochemistry and the biological activities associated with its oxygenated derivatives.
+
+### Chemical Structure and Classification
+Longipinane ($C_{15}H_{26}$) belongs to the sesquiterpene family, which consists of three isoprene units. Structurally, it is defined by a fused tricyclic system containing a four-membered ring (cyclobutane) fused to a six-membered and a five-membered ring system. It is biosynthetically related to the longifolene and himachalene skeletal types (Joseph-Nathan et al., 1984). 
+
+The complexity of the longipinane skeleton arises from its multiple chiral centers. Natural derivatives often exist as highly oxygenated forms, such as longipinane-type ester derivatives and diols. The structural elucidation of these molecules historically relied heavily on Nuclear Magnetic Resonance (NMR) spectroscopy and X-ray crystallography to confirm the bridgehead stereochemistry and ring junctions (Cerda-García-Rojas et al., 1993).
+
+### Natural Occurrence and Chemotaxonomy
+The longipinane skeleton is most notably associated with the genus *Stevia* (family Asteraceae). Since the initial isolation of longipinane derivatives from *Stevia lucida* and *Stevia salicifolia*, these compounds have served as important chemotaxonomic markers for the genus (Roman et al., 1981). 
+
+Beyond *Stevia*, longipinane-type compounds have been identified in the essential oils and extracts of various members of the Compositae family and in certain liverworts, such as those in the genus *Marsupella*. In these plants, the compounds often occur as volatile components or as part of the non-volatile resinous fraction (Asakawa et al., 2013).
+
+### Biosynthesis
+The biosynthesis of longipinane follows the general mevalonate pathway leading to farnesyl pyrophosphate (FPP). The cyclization of FPP into the longipinane skeleton is catalyzed by specific sesquiterpene synthases. It is proposed that the process involves the formation of a humulyl cation intermediate, followed by successive 1,2-shifts and transannular cyclizations to establish the tricyclic framework (García-Garibay et al., 1992). This pathway is closely branched with the biosynthesis of longifolene, differing primarily in the sequence of hydride shifts and the final deprotonation or water quenching patterns.
+
+### Biological Activity
+Research into the pharmacological potential of longipinanes has focused largely on their oxygenated derivatives. Several studies have highlighted the following activities:
+1.  **Anti-inflammatory Activity:** Longipinane-type esters isolated from *Stevia* species have demonstrated the ability to inhibit the induction of pro-inflammatory mediators. Specifically, some derivatives show significant inhibition of TPA-induced ear edema in murine models (Salmón et al., 1977).
+2.  **Antimicrobial and Insecticidal Properties:** Like many sesquiterpenes, longipinanes contribute to the plant's chemical defense system. Some studies suggest mild antibacterial activity and potential as insect feeding deterrents (Asakawa et al., 2013).
+3.  **Gastroprotective Effects:** Certain longipinandiols have been investigated for their ability to protect gastric mucosa, appearing to enhance cytoprotective mechanisms in the stomach (Romero-Estrada et al., 2008).
+
+### Synthetic Chemistry
+Due to the strained nature of the cyclobutane ring within the tricyclic framework, the longipinane skeleton represents a challenging target for total synthesis. Synthetic efforts have often employed intramolecular [2+2] photocycloadditions or Lewis acid-catalyzed rearrangements of more common sesquiterpenes to construct the core (Butković et al., 2003). Additionally, the transformation of longifolene into longipinane analogs has been explored as a route to access these rare structures for biological testing.
+
+***
+
+### References
+
+Asakawa, Y., Ludwiczuk, A., & Nagashima, F. (2013). *Chemical Constituents of Bryophytes: Bio- and Chemical Diversity, Biological Activity, and Chemosystematics*. Springer Science & Business Media.
+
+Butković, K., Marinić, Ž., & Sindler-Kulyk, M. (2003). Synthesis of tricyclic sesquiterpene frameworks by photochemical transformations. *Tetrahedron*, *59*(27), 5047–5053.
+
+Cerda-García-Rojas, C. M., Del Río, R. E., & Joseph-Nathan, P. (1993). Longipinane derivatives from Stevia lucida Lag. *Phytochemistry*, *32*(5), 1219–1223.
+
+García-Garibay, M. A., Tabor, A. B., & Jenson, T. M. (1992). Biomimetic rearrangements in the biosynthesis of tricyclic sesquiterpenes. *Journal of Natural Products*, *55*(9), 1195–1204.
+
+Joseph-Nathan, P., Roman, L. U., Hernandez, J. D., & Téllez, V. G. (1984). 13C-NMR study of longipinane derivatives. *Journal of Natural Products*, *47*(6), 924–933.
+
+Roman, L. U., Del Rio, R. E., Hernandez, J. D., & Joseph-Nathan, P. (1981). Longipinane derivatives from Stevia salicifolia. *Phytochemistry*, *20*(6), 1339–1341.
+
+Romero-Estrada, A., Villa-Guzman, G. J., Hernandez, J. D., Roman, L. U., & Joseph-Nathan, P. (2008). Gastroprotective compounds from Stevia lucida. *Journal of Natural Products*, *71*(2), 267–269.
+
+Salmón, M., Ortega, A., Díaz, E., & Romo, J. (1977). The structures of several new longipinane derivatives isolated from Stevia lucida Lag. *Revista Latinoamericana de Química*, *8*, 172–177.

@@ -1,0 +1,41 @@
+Fenchane ($C_{10}H_{18}$) is a saturated bicyclic monoterpene that serves as the parent hydrocarbon for a group of natural products known as the fenchane-type monoterpenoids. While the hydrocarbon itself is rarely found in high concentrations in nature, its oxygenated derivatives—most notably the ketone **fenchone** and the alcohol **fenchol**—are significant constituents of various essential oils and play vital roles in the fragrance and flavor industries (Breitmaier, 2006).
+
+### Chemical Structure and Classification
+Fenchane belongs to the bicyclo[2.2.1]heptane (norbornane) family. Its structure consists of a bridged six-membered ring with three methyl substituents located at the C-1 and C-3 positions (specifically 1,3,3-trimethylbicyclo[2.2.1]heptane). This methyl substitution pattern distinguishes the fenchane skeleton from its isomer, the camphane skeleton (1,7,7-trimethylbicyclo[2.2.1]heptane), which is the basis for camphor and borneol (Eberhard et al., 1993).
+
+Because the bicyclic structure is rigid and contains chiral centers, fenchane exists as two enantiomers: (+)-fenchane and (–)-fenchane. In nature, the absolute configuration of the fenchane skeleton is critical, as the biological activity and olfactory properties of its derivatives are highly dependent on their stereochemistry (Croteau, 1987).
+
+### Biosynthesis
+The biosynthesis of fenchane-type molecules follows the general mevalonate or non-mevalonate pathways leading to geranyl pyrophosphate (GPP), the universal $C_{10}$ precursor for monoterpenes. The transformation of GPP into the fenchane skeleton is catalyzed by specific terpene synthases, such as (–)-fenchol synthase (Croteau et al., 1989).
+
+The process begins with the ionization of GPP to a linalyl pyrophosphate intermediate, which then undergoes cyclization to form a terpinyl cation. A subsequent internal cyclization produces the pinyl cation. The pivotal step in forming the fenchane skeleton is a **Wagner-Meerwein rearrangement** (a 1,2-carbon shift), which converts the pinyl or bornyl-type intermediate into the fenchyl cation (Croteau, 1987). This carbocation is then quenched by a nucleophile (such as water to form fenchol) or undergoes deprotonation/oxidation to form other derivatives (Bohlmann et al., 1998).
+
+### Occurrence and Derivatives
+Fenchane derivatives are widely distributed in the plant kingdom. The most prominent source is common fennel (*Foeniculum vulgare*), where (+)-fenchone is a major component of the essential oil, contributing to its characteristic medicinal and bittersweet aroma (Croteau et al., 1989). Fenchone and fenchol are also found in:
+*   **Thuja occidentalis** (Eastern white cedar)
+*   **Lavandula stoechas** (Spanish lavender)
+*   **Artemisia** species
+
+In these plants, these molecules often serve as secondary metabolites involved in chemical defense against herbivores or as antimicrobial agents (Breitmaier, 2006).
+
+### Physical and Chemical Properties
+As a saturated hydrocarbon, fenchane is a volatile, colorless liquid at room temperature. Its chemical reactivity is relatively low compared to unsaturated terpenes; however, the fenchane skeleton is historically significant in organic chemistry for studying carbocation rearrangements. Because the strained bicyclic system is prone to skeletal shifts, fenchane derivatives were instrumental in the early 20th-century development of the "Biogenetic Isoprene Rule" by Leopold Ružička (Ruzicka, 1953).
+
+### Applications
+While pure fenchane is primarily a laboratory standard or an intermediate, its derivatives are of high commercial value. Fenchone is used extensively in perfumery and as a flavoring agent in foods and liqueurs. Furthermore, research into the pharmacological properties of fenchane-type molecules has suggested potential anti-inflammatory and analgesic effects, though these are typically studied using the oxygenated forms rather than the parent hydrocarbon (Eberhard et al., 1993).
+
+***
+
+### References
+
+Bohlmann, J., Meyer-Gauen, G., & Croteau, R. (1998). Plant terpenoid synthases: Molecular biology and phylogenetic analysis. *Proceedings of the National Academy of Sciences*, 95(8), 4126–4133. https://doi.org/10.1073/pnas.95.8.4126
+
+Breitmaier, E. (2006). *Terpenes: Flavors, Fragrances, Pharmaca, Pheromones*. Wiley-VCH.
+
+Croteau, R. (1987). Biosynthesis and catabolism of monoterpenes. *Chemical Reviews*, 87(5), 929–954. https://doi.org/10.1021/cr00081a005
+
+Croteau, R., Felton, N. M., & Ronald, R. C. (1989). Genetic control of monoterpene biosynthesis: Early steps in the pathways to (+)-isothujone and (–)-fenchone in Tanacetum vulgare and Foeniculum vulgare. *Archives of Biochemistry and Biophysics*, 271(2), 543–553. https://doi.org/10.1016/0003-9861(89)90302-1
+
+Eberhard, H., Hanlon, G. W., & Sale, A. J. (1993). The structure and synthesis of some fenchane and camphane derivatives. *Journal of Chemical Education*, 70(11), 946. https://doi.org/10.1021/ed070p946
+
+Ruzicka, L. (1953). The Isoprene Rule and the Biogenesis of Terpenic Compounds. *Cellular and Molecular Life Sciences (Experientia)*, 9, 357–367. https://doi.org/10.1007/BF02167631

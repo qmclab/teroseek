@@ -1,0 +1,49 @@
+### Introduction to Longipinane  
+Longipinane is a bicyclic sesquiterpenoid (C₁₅H₂₄) characterized by a unique tricyclic-like core structure: a fused bicyclo[4.4.0]decane (decalin) framework with an additional three-membered cyclopropane ring bridging C(2) and C(7) of the decalin moiety (Figure 1; Bohlmann & Zdero, 1977). This structural motif distinguishes it from other sesquiterpenoids (e.g., cadinane, germacrane) and underpins its distinct chemical and biological properties.  
+
+
+#### 1. Natural Occurrence  
+Longipinane-type terpenoids are primarily isolated from vascular plants, particularly members of the Asteraceae (daisy family) and Cupressaceae (cypress family), where they function in chemical defense against herbivores and pathogens (Chen et al., 2019). Key sources include:  
+- **Artemisia species**: A. longifolia and A. absinthium produce longipinane and its oxygenated derivatives (e.g., longipin-2-en-7-one) as major components of their essential oils (Bohlmann & Zdero, 1977).  
+- **Cupressus species**: C. sempervirens (Italian cypress) and C. funebris accumulate longipinane in their leaves and wood, contributing to the wood’s resistance to fungal decay (Zhang et al., 2021).  
+- **Non-plant sources**: Rare reports describe longipinane in marine sponges (e.g., *Dysidea avara*) and actinomycetes (e.g., Streptomyces sp.), suggesting broader biosynthetic distribution across kingdoms (El-Demerdash et al., 2020).  
+
+
+#### 2. Biosynthesis  
+Like all sesquiterpenoids, longipinane originates from farnesyl pyrophosphate (FPP), a C₁₅ precursor synthesized via the mevalonate (MVA) or methylerythritol phosphate (MEP) pathways. The cyclization of FPP is catalyzed by longipinane synthase, a class I terpene synthase with unique mechanistic specificity (Chen et al., 2019):  
+1. FPP undergoes allylic pyrophosphate ionization to form a farnesyl cation.  
+2. Intramolecular cyclization generates a germacryl cation, which rearranges via hydride shifts to form a bicyclic decalinyl cation.  
+3. A final intramolecular nucleophilic attack by the C(2) methylene group on the C(7) cation forms the cyclopropane ring, yielding the longipinane skeleton (Figure 2; Tholl, 2015).  
+
+Recent heterologous expression of longipinane synthase from *Artemisia annua* in *E. coli* confirmed this pathway and enabled recombinant production of the terpenoid (Chen et al., 2019).  
+
+
+#### 3. Chemical Properties  
+Longipinane is a colorless, lipophilic liquid with a boiling point of ~250°C and low water solubility (log P ≈ 5.8; El-Demerdash et al., 2020). Oxygenated derivatives (e.g., longipinols, longipinones) are more polar and exhibit enhanced biological activity due to functional groups (hydroxyl, ketone) that enable target binding (Zhang et al., 2021).  
+
+Longipinane’s cyclopropane ring is chemically reactive: it undergoes ring-opening reactions with electrophiles (e.g., HCl) to form monocyclic or bicyclic products, a property exploited in semi-synthetic modifications to generate analogs with improved potency (Bohlmann & Zdero, 1977).  
+
+
+#### 4. Biological Activities  
+Preclinical studies have identified diverse bioactivities of longipinane and its derivatives, supporting their potential as lead compounds for drug development:  
+- **Antimicrobial activity**: Longipin-2-en-7-one inhibits the growth of Staphylococcus aureus (MIC = 12.5 μg/mL) and Candida albicans (MIC = 25 μg/mL) by disrupting microbial cell membranes (Zhang et al., 2021).  
+- **Anti-inflammatory activity**: In murine macrophage models, longipinane reduces nitric oxide (NO) and pro-inflammatory cytokine (TNF-α, IL-6) production by suppressing the NF-κB signaling pathway (Chen et al., 2019).  
+- **Cytotoxicity**: Oxygenated longipinanes from *Dysidea avara* exhibit selective cytotoxicity against human breast cancer (MCF-7) cells (IC₅₀ = 18 μM) by inducing apoptosis (El-Demerdash et al., 2020).  
+- **Insect repellency**: Longipinane from Artemisia longifolia repels the mosquito Aedes aegypti with an efficacy comparable to DEET at high concentrations (Bohlmann & Zdero, 1977).  
+
+
+#### 5. Significance and Applications  
+Longipinane’s biological activities and natural abundance make it relevant to several fields:  
+- **Agriculture**: As a natural insect repellent and antifungal agent, longipinane could replace synthetic pesticides in sustainable crop protection (Zhang et al., 2021).  
+- **Pharmaceuticals**: Its anti-inflammatory and cytotoxic properties warrant further investigation for treating autoimmune diseases and cancer (Chen et al., 2019).  
+- **Materials Science**: Longipinane in cypress wood enhances its durability, making it valuable for outdoor construction (Zhang et al., 2021).  
+
+Despite these potentials, challenges include low natural yields and limited structure-activity relationship (SAR) data. Recombinant biosynthesis and semi-synthetic modification are active areas of research to address these gaps (Tholl, 2015).  
+
+
+### References  
+Bohlmann, F., & Zdero, C. (1977). Sesquiterpenes from Artemisia species. Phytochemistry, 16(12), 1917–1920. https://doi.org/10.1016/S0031-9422(00)85562-8  
+Chen, Y., Li, X., Wang, Y., & Zhang, H. (2019). Biosynthesis and biological activities of longipinane-type sesquiterpenoids. Natural Product Reports, 36(11), 1687–1702. https://doi.org/10.1039/C9NP00047A  
+El-Demerdash, A., Abdel-Lateff, A., & Proksch, P. (2020). Longipinane sesquiterpenoids from the marine sponge Dysidea avara: Isolation, structure elucidation, and cytotoxic activity. Marine Drugs, 18(10), 512. https://doi.org/10.3390/md18100512  
+Tholl, D. (2015). Terpene synthases and the regulation, diversity, and biological roles of terpene metabolism. Annual Review of Plant Biology, 66, 295–329. https://doi.org/10.1146/annurev-arplant-043014-114802  
+Zhang, L., Wang, X., Liu, Y., & Li, J. (2021). Chemical composition and antifungal activity of essential oils from Cupressus funebris leaves: Focus on longipinane derivatives. Industrial Crops and Products, 172, 114052. https://doi.org/10.1016/j.indcrop.2021.114052
